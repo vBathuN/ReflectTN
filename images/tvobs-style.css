@@ -2,7 +2,7 @@
 /* Depends on length of ticker text */
 html { max-width: 1280px; margin: 0 auto;}
 body {
-  background: transparent;
+  background: 
   font-family: Arial;
   color: #fff;
   display: flex;
@@ -35,17 +35,17 @@ p {
 
 .logo-area {
   z-index: 1;
-  background: linear-gradient(90deg, #0a0, #0a0 0%, #800 100%, #0a0 100%, #0a0);
+  background: #19f radial-gradient(transparent, #02c);
   display: row;
-  height: 110px;
-  width: 15%;
+  height: 120px;
+  width: 20%;
 }
 
 .box-top, .box-bttm {
   display: block;
   margin-left: auto;
-  margin-right: 0px;
-  margin-top: 0px;
+  margin-right: 73px;
+  margin-top: 5px;
   perspective: 1200px;
   perspective-origin: 50% 100px;
   width: 110px;
@@ -117,8 +117,8 @@ p {
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 85%;
-  height: 110px;
+  width: 80%;
+  height: 120px;
 
 background: 
     linear-gradient(90deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%)
@@ -151,7 +151,7 @@ background:
   box-shadow: 0 0 2px #800 inset;
   bottom: 0;
   height: 5px;
-  width: 96%;
+  width: 98%;
 animation-name: blinker;
   animation-duration: 0.5s;
   animation-timing-function: linear;
@@ -191,7 +191,7 @@ animation-name: blinker;
   white-space: nowrap;
 }
 .ticker .stock-info {
-  background: linear-gradient(90deg, #000, #000 25%, #0a0 95%, #000 95%, #000);
+  background: #19f radial-gradient(transparent, #02c);
   box-shadow: -16px 0 20px #000;
   position: absolute;
   top: 0;
@@ -200,23 +200,23 @@ animation-name: blinker;
   height: 48px;
 }
 .ticker .stock-symbol {
-  background: linear-gradient(#666, #000);
+  background: #19f radial-gradient(transparent, #02c);
   -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
   border: 2px solid #fff;
   float: left;
   width: 68px;
-  height: 43px;
+  height: 48px;
 }
 .ticker .stock-symbol p {
   font-weight: bold;
-  line-height: 2em;
+  line-height: 2.3em;
   transform: scale(0.8, 1.1);
 }
 .ticker span {
   float: left;
   width: 85px;
-  line-height: 2.5em;
+  line-height: 2.3em;
   margin-left: 0px;
   text-shadow: 0 2px 4px #000;
   transform: scale(1, 1.1);
@@ -246,7 +246,7 @@ animation-name: blinker;
   width: 1280px;
   height: 200px;
   line-height: 1.6;
-  margin: 3px -210px;
+  margin: 13px -230px;
   
 }
 
