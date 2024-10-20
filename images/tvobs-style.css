@@ -397,3 +397,13 @@ animation-name: blinker;
     margin-bottom: 4px;
     position: absolute;    
 }
+
+.pulse-logo {
+    display: inline-block;
+    z-index: 5;
+    width: 75px;
+    height: 75px;
+    padding-right: 985px;
+    margin-top: 160px;
+    position: absolute;  
+}
