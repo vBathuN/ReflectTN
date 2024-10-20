@@ -401,9 +401,9 @@ animation-name: blinker;
 .pulse-logo {
     display: inline-block;
     z-index: 5;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     padding-right: 1030px;
-    margin-bottom: 380px;
+    margin-bottom: 430px;
     position: absolute;  
 }
