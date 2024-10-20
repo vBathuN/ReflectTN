@@ -68,6 +68,63 @@ h1 {
 <div class='stream'>
 <iframe name="ad" src="https://www.rtcs.live/slider" width="400" style="height: 564px" scrolling="no" frameBorder="0"/></iframe>
 </div>
+
+  <div class="pulse-logo">
+    <div class="pulse-container">
+<style>
+
+.round-image {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+}
+
+.pulse-container {
+  position: relative;
+}
+
+.pulse1,
+.pulse2,
+.pulse3 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  z-index: 0;
+  background: red;
+  animation: pulse 3s infinite;
+}
+
+.pulse2 {
+  animation-delay: 1s;
+}
+
+.pulse3 {
+  animation-delay: 2s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+</style>
+
+      <div class="pulse1"></div>
+      <div class="pulse2"></div>
+      <div class="pulse3"></div>
+
+      <img class="round-image" src="https://www.rtcs.live/animated-logo/bathu/images/hero.jpg" alt="" />
+    </div></div>
+
 <!-- partial:index.partial.html -->
 <div class='main'>
   <div class='logo-area'>
