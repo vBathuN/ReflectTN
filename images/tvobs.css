@@ -260,7 +260,7 @@ animation-name: blinker;
   letter-spacing: 2px;
 }
 
-.overlay {
+.watermark {
   opacity: .2;
   position: absolute;
   width: 1280px;
@@ -272,5 +272,5 @@ animation-name: blinker;
   text-transform:none;
   letter-spacing: 2px;
   font-family: 'Oxygen', sans-serif;
-  h1 {font-size: 20px; text-shadow: 0 0 .3em #000; margin-right: 30px; margin-top: 490px;}
+  h1 {font-size: 18px; text-shadow: 0 0 .3em #000; margin-right: 30px; margin-top: 490px;}
 }
