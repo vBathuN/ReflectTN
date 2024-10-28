@@ -181,6 +181,7 @@ animation-name: blinker;
 }
 
 .textrss {
+    opacity: .9;
     position: absolute;
     z-index: 1;
     line-height: 1.8;
@@ -199,6 +200,7 @@ animation-name: blinker;
 }
 
 .rtcs-ad {
+    opacity: .9;
     display: inline-block;
     vertical-align: top;
     z-index: -4;
@@ -233,6 +235,7 @@ animation-name: blinker;
 }
 
 .pulse-logo {
+    opacity: .8;
     display: inline-block;
     z-index: 5;
     width: 75px;
@@ -243,6 +246,7 @@ animation-name: blinker;
 }
 
 .button {
+  opacity: .9;
   margin-left: -180px;
   margin-top: 107px;  
   position: absolute;
@@ -261,7 +265,7 @@ animation-name: blinker;
 }
 
 .watermark {
-  opacity: .4;
+  opacity: .5;
   position: absolute;
   width: 1280px;
   height: 720px;
@@ -279,7 +283,7 @@ animation-name: blinker;
 }
 
 .location {
-  opacity: .8;
+  opacity: .9;
   position: absolute;
   z-index: 1;
   margin: 0px 710px;
