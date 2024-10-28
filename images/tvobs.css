@@ -235,7 +235,6 @@ animation-name: blinker;
 }
 
 .pulse-logo {
-    opacity: .8;
     display: inline-block;
     z-index: 5;
     width: 75px;
