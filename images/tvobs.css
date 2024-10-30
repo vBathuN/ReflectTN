@@ -282,9 +282,10 @@ animation-name: blinker;
 }
 
 .location {
-  opacity: .9;
+  opacity: .8;
   position: absolute;
   z-index: 1;
-  margin: 0px 720px;
-  margin-top: -580px;
+  margin-top: -590px;
+  margin-right: 740px;
+  text-shadow: 0 0 .3em #000;
 }
