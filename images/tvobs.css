@@ -43,7 +43,7 @@ body {
 
 background: 
     linear-gradient(90deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%)
-    #870407;
+    #fefcfc;
   background-size:300% 50%;
   animation: shine 3s infinite;
 }
@@ -209,8 +209,8 @@ animation-name: blinker;
     padding-right: 950px;
     margin-top: 0px;
     position: absolute;
-    border-left: 5px solid #870407;
-    border-top: 5px solid #870407;
+    border-left: 5px solid #fefcfc;
+    border-top: 5px solid #fefcfc;
 }
 
 .rtcs-stream {
@@ -221,7 +221,7 @@ animation-name: blinker;
     position: absolute;
     vertical-align: middle;
     z-index: -2;
-    border-right: 5px solid #870407;
+    border-right: 5px solid #fefcfc;
 }
 
 .rtcs-anchor {
