@@ -33,7 +33,7 @@ body {
 }
 
 .cur-event {
-  background: #fefcfc
+  background: #fefcfc;
   font-weight: 600;
   overflow: hidden;
   position: relative;
@@ -42,8 +42,7 @@ body {
   height: 130px;
 
 background: 
-    linear-gradient(90deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%)
-    #fefcfc;
+    linear-gradient(90deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%) #fefcfc;
   background-size:300% 50%;
   animation: shine 3s infinite;
 }
