@@ -33,7 +33,7 @@ body {
 }
 
 .cur-event {
-  background: #19f radial-gradient(transparent, #02c);
+  background: #fefcfc
   font-weight: 600;
   overflow: hidden;
   position: relative;
