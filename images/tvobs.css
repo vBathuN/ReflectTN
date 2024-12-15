@@ -249,14 +249,14 @@ animation-name: blinker;
     width: 75px;
     height: 75px;
     padding-right: 985px;
-    margin-top: 160px;
+    margin-top: -160px;
     position: absolute;  
 }
 
 .button {
   opacity: .9;
   margin-left: -180px;
-  margin-top: 107px;  
+  margin-top: 247px;  
   position: absolute;
   font-family: Helvetica, Sans-serif;
   font-size: 32px;
