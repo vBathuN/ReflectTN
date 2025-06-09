@@ -568,27 +568,5 @@ type="text/javascript"></script>
   <div class="label ripple">Breaking News</div>
 </div></div>
 
-<script>
-const urlParams = new URLSearchParams(window.location.search);
-
-const title = urlParams.get('title');
-const subTitle = urlParams.get('subTitle');
-const once = urlParams.get('once');
-
-if (title) {
-  document.getElementById('titleText').innerHTML = title; 
-  document.getElementById('titleContainer').style.display = 'block'; 
-}
-
-if (subTitle) {
-  document.getElementById('subTitleText').innerHTML = subTitle;  
-  document.getElementById('subTitleContainer').style.display = 'block'; 
-}
-
-if (!title && !subTitle) {
-  document.getElementById('titleContainer').style.display = 'block';
-  document.getElementById('subTitleContainer').style.display = 'block';
-}
-</script>
 </body>
 </html>
