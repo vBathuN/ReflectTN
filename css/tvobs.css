@@ -206,11 +206,11 @@ body {
 .watermark {
   opacity: .3;
   position: absolute;
-  width: 1280px;
+  width: 990px;
   height: 50px;
   box-sizing: border-box;
   padding: 0px 0px ;
-  margin-top: 180px;
+  margin-top: 380px;
   line-height: 1.5;
   text-align: left;
   text-transform:none;
