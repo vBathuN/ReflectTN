@@ -53,8 +53,10 @@ body {
   background: linear-gradient(90deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%) #c60203;
   background-image: url('https://host.rtbs.in/media/tv-bg.gif');
   background-size:100% 100%;
-  width: 100%;
+  width: 130%;
   height: 50px;
+  margin-left: -289px;
+  margin-top: -71px;
   overflow: hidden;
   position: relative;
   white-space: nowrap;
