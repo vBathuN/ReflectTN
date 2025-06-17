@@ -54,7 +54,7 @@ body {
   width: 129%;
   height: 50px;
   margin-left: -288px;
-  margin-top: -66px;
+  margin-top: -71px;
   overflow: hidden;
   position: relative;
   white-space: nowrap;
@@ -190,7 +190,7 @@ body {
 .rtcs-ad {
     width: 330px;
     height: 670px;
-    margin-top: 1px;
+    margin-top: -5px;
     margin-left: -295px;
     position: absolute;
     vertical-align: middle;
