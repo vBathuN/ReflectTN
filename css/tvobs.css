@@ -216,15 +216,6 @@ body {
     z-index: 100;
 }
 
-.pulse-logo {
-    z-index: 5;
-    width: 45px;
-    height: 45px;
-    padding-right: 330px;
-    margin-bottom: 660px;
-    position: absolute;  
-}
-
 .watermark {
   opacity: .3;
   position: absolute;
@@ -256,7 +247,7 @@ body {
   display: inline-block;
   opacity: .9;
   position: absolute;
-  margin-left: -315px;
+  margin-right: 775px;
   margin-top: 30px;
 }
 
@@ -268,7 +259,7 @@ body {
   text-transform: none;
   text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
   opacity: .9;
-  margin-left: -285px;
+  margin-right: 765px;
   margin-top: 2px;
 }
 
