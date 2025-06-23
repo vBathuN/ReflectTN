@@ -184,25 +184,6 @@ body {
     z-index: -5;
 }
 
-.rtcs-rstream {
-    width: 960px;
-    height: 540px;
-    margin-bottom: 60px;
-    margin-right: 0px;
-    position: absolute;
-    vertical-align: middle;
-    z-index: -5;
-}
-
-.rtcs-lt {
-    vertical-align: top;
-    width: 1280px;
-    height: 720px;
-    margin-top: 0px;
-    position: absolute;
-    z-index: 100;
-}
-
 .watermark {
   opacity: .3;
   position: absolute;
