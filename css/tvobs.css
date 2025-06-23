@@ -35,8 +35,8 @@ body {
   position: relative;
   text-align: center;
   width: 75%;
-  height: 90px;
-  margin-top: 580px;
+  height: 100px;
+  margin-top: 570px;
 }
 
 .cur-event .top, .cur-event .glow, .cur-event .bttm {
