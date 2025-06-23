@@ -146,8 +146,7 @@ body {
   z-index: -4;
 }
 
-.rtcs {.
-    background: transparent;
+.rtcs {
     vertical-align: top;
     width: 1280px;
     height: 720px;
@@ -166,7 +165,7 @@ body {
 }
 
 .rtcs-stream {
-    background: transparent;
+    opacity: .1;
     width: 960px;
     height: 540px;
     margin-bottom: 60px;
@@ -177,7 +176,6 @@ body {
 }
 
 .rtcs-anchor {
-    background: transparent;
     width: 196px;
     height: 366px;
     margin-bottom: -210px;
